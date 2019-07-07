@@ -1,0 +1,2812 @@
+{
+  "contractName": "HouseFur",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "renthFMessage",
+      "outputs": [
+        {
+          "name": "waterHeater",
+          "type": "bool"
+        },
+        {
+          "name": "gasNutual",
+          "type": "bool"
+        },
+        {
+          "name": "refrigerator",
+          "type": "bool"
+        },
+        {
+          "name": "airConditioner",
+          "type": "bool"
+        },
+        {
+          "name": "washingMachine",
+          "type": "bool"
+        },
+        {
+          "name": "internet",
+          "type": "bool"
+        },
+        {
+          "name": "chairnTable",
+          "type": "bool"
+        },
+        {
+          "name": "wardrobe",
+          "type": "bool"
+        },
+        {
+          "name": "bed",
+          "type": "bool"
+        },
+        {
+          "name": "sofa",
+          "type": "bool"
+        },
+        {
+          "name": "tv",
+          "type": "bool"
+        },
+        {
+          "name": "theForth",
+          "type": "bool"
+        },
+        {
+          "name": "selfFixing",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "hId",
+          "type": "string"
+        }
+      ],
+      "name": "sethFMessage",
+      "outputs": [
+        {
+          "name": "waterHeater",
+          "type": "bool"
+        },
+        {
+          "name": "gasNutual",
+          "type": "bool"
+        },
+        {
+          "name": "refrigerator",
+          "type": "bool"
+        },
+        {
+          "name": "airConditioner",
+          "type": "bool"
+        },
+        {
+          "name": "washingMachine",
+          "type": "bool"
+        },
+        {
+          "name": "internet",
+          "type": "bool"
+        },
+        {
+          "name": "chairnTable",
+          "type": "bool"
+        },
+        {
+          "name": "wardrobe",
+          "type": "bool"
+        },
+        {
+          "name": "bed",
+          "type": "bool"
+        },
+        {
+          "name": "sofa",
+          "type": "bool"
+        },
+        {
+          "name": "tv",
+          "type": "bool"
+        },
+        {
+          "name": "theForth",
+          "type": "bool"
+        },
+        {
+          "name": "selfFixing",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"hId\",\"type\":\"string\"}],\"name\":\"sethFMessage\",\"outputs\":[{\"name\":\"waterHeater\",\"type\":\"bool\"},{\"name\":\"gasNutual\",\"type\":\"bool\"},{\"name\":\"refrigerator\",\"type\":\"bool\"},{\"name\":\"airConditioner\",\"type\":\"bool\"},{\"name\":\"washingMachine\",\"type\":\"bool\"},{\"name\":\"internet\",\"type\":\"bool\"},{\"name\":\"chairnTable\",\"type\":\"bool\"},{\"name\":\"wardrobe\",\"type\":\"bool\"},{\"name\":\"bed\",\"type\":\"bool\"},{\"name\":\"sofa\",\"type\":\"bool\"},{\"name\":\"tv\",\"type\":\"bool\"},{\"name\":\"theForth\",\"type\":\"bool\"},{\"name\":\"selfFixing\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"string\"}],\"name\":\"renthFMessage\",\"outputs\":[{\"name\":\"waterHeater\",\"type\":\"bool\"},{\"name\":\"gasNutual\",\"type\":\"bool\"},{\"name\":\"refrigerator\",\"type\":\"bool\"},{\"name\":\"airConditioner\",\"type\":\"bool\"},{\"name\":\"washingMachine\",\"type\":\"bool\"},{\"name\":\"internet\",\"type\":\"bool\"},{\"name\":\"chairnTable\",\"type\":\"bool\"},{\"name\":\"wardrobe\",\"type\":\"bool\"},{\"name\":\"bed\",\"type\":\"bool\"},{\"name\":\"sofa\",\"type\":\"bool\"},{\"name\":\"tv\",\"type\":\"bool\"},{\"name\":\"theForth\",\"type\":\"bool\"},{\"name\":\"selfFixing\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/chenchisheng/Desktop/dapp_houseshop/contracts/HouseFur.sol\":\"HouseFur\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/chenchisheng/Desktop/dapp_houseshop/contracts/HouseFur.sol\":{\"keccak256\":\"0xfe23d75f317b2da709145db288827d19147e1e2342fb3f2e2a7bde68c9c5ce5a\",\"urls\":[\"bzzr://44bf74f9bf0af9850cd385a2884da784ef352bb5b6e2f1ad80e0d702e1bf6658\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061059e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80630cd199361461003b5780638578e6ea14610154575b600080fd5b6100e16004803603602081101561005157600080fd5b81019060208101813564010000000081111561006c57600080fd5b82018360208201111561007e57600080fd5b803590602001918460018302840111640100000000831117156100a057600080fd5b91908080601f0160208091040260200160405190810160405280939291908181526020018383808284376000920191909152509295506101fa945050505050565b604080519d15158e529b151560208e01529915158c8c015297151560608c015295151560808b015293151560a08a015291151560c0890152151560e08801521515610100870152151561012086015215156101408501521515610160840152151561018083015251908190036101a00190f35b6100e16004803603602081101561016a57600080fd5b81019060208101813564010000000081111561018557600080fd5b82018360208201111561019757600080fd5b803590602001918460018302840111640100000000831117156101b957600080fd5b91908080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525092955061045a945050505050565b6000806000806000806000806000806000806000610216610506565b60008f6040518082805190602001908083835b602083106102485780518252601f199092019160209182019101610229565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020604051806101a00160405290816000820160009054906101000a900460ff161515151581526020016000820160019054906101000a900460ff161515151581526020016000820160029054906101000a900460ff161515151581526020016000820160039054906101000a900460ff161515151581526020016000820160049054906101000a900460ff161515151581526020016000820160059054906101000a900460ff161515151581526020016000820160069054906101000a900460ff161515151581526020016000820160079054906101000a900460ff161515151581526020016000820160089054906101000a900460ff161515151581526020016000820160099054906101000a900460ff1615151515815260200160008201600a9054906101000a900460ff1615151515815260200160008201600b9054906101000a900460ff1615151515815260200160008201600c9054906101000a900460ff1615151515815250509050806000015181602001518260400151836060015184608001518560a001518660c001518760e001518861010001518961012001518a61014001518b61016001518c61018001519d509d509d509d509d509d509d509d509d509d509d509d509d505091939597999b9d90929496989a9c50565b805160208183018101805160008252928201919093012091525460ff80821691610100810482169162010000820481169163010000008104821691640100000000820481169165010000000000810482169166010000000000008204811691670100000000000000810482169168010000000000000000820481169169010000000000000000008104821691600160501b8204811691600160581b8104821691600160601b909104168d565b604080516101a081018252600080825260208201819052918101829052606081018290526080810182905260a0810182905260c0810182905260e0810182905261010081018290526101208101829052610140810182905261016081018290526101808101919091529056fea165627a7a72305820a873eef3231b53928509424e26d22a9d970fb8ecb4bbde8c7fc627197a33c5000029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80630cd199361461003b5780638578e6ea14610154575b600080fd5b6100e16004803603602081101561005157600080fd5b81019060208101813564010000000081111561006c57600080fd5b82018360208201111561007e57600080fd5b803590602001918460018302840111640100000000831117156100a057600080fd5b91908080601f0160208091040260200160405190810160405280939291908181526020018383808284376000920191909152509295506101fa945050505050565b604080519d15158e529b151560208e01529915158c8c015297151560608c015295151560808b015293151560a08a015291151560c0890152151560e08801521515610100870152151561012086015215156101408501521515610160840152151561018083015251908190036101a00190f35b6100e16004803603602081101561016a57600080fd5b81019060208101813564010000000081111561018557600080fd5b82018360208201111561019757600080fd5b803590602001918460018302840111640100000000831117156101b957600080fd5b91908080601f01602080910402602001604051908101604052809392919081815260200183838082843760009201919091525092955061045a945050505050565b6000806000806000806000806000806000806000610216610506565b60008f6040518082805190602001908083835b602083106102485780518252601f199092019160209182019101610229565b6001836020036101000a0380198251168184511680821785525050505050509050019150509081526020016040518091039020604051806101a00160405290816000820160009054906101000a900460ff161515151581526020016000820160019054906101000a900460ff161515151581526020016000820160029054906101000a900460ff161515151581526020016000820160039054906101000a900460ff161515151581526020016000820160049054906101000a900460ff161515151581526020016000820160059054906101000a900460ff161515151581526020016000820160069054906101000a900460ff161515151581526020016000820160079054906101000a900460ff161515151581526020016000820160089054906101000a900460ff161515151581526020016000820160099054906101000a900460ff1615151515815260200160008201600a9054906101000a900460ff1615151515815260200160008201600b9054906101000a900460ff1615151515815260200160008201600c9054906101000a900460ff1615151515815250509050806000015181602001518260400151836060015184608001518560a001518660c001518760e001518861010001518961012001518a61014001518b61016001518c61018001519d509d509d509d509d509d509d509d509d509d509d509d509d505091939597999b9d90929496989a9c50565b805160208183018101805160008252928201919093012091525460ff80821691610100810482169162010000820481169163010000008104821691640100000000820481169165010000000000810482169166010000000000008204811691670100000000000000810482169168010000000000000000820481169169010000000000000000008104821691600160501b8204811691600160581b8104821691600160601b909104168d565b604080516101a081018252600080825260208201819052918101829052606081018290526080810182905260a0810182905260c0810182905260e0810182905261010081018290526101208101829052610140810182905261016081018290526101808101919091529056fea165627a7a72305820a873eef3231b53928509424e26d22a9d970fb8ecb4bbde8c7fc627197a33c5000029",
+  "sourceMap": "25:1166:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1166:1;;;;;;;",
+  "deployedSourceMap": "25:1166:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:1166:1;;;;;;;;;;;;;;;;;;;;;;;;651:538;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;651:538:1;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;651:538:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;651:538:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;651:538:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;651:538:1;;-1:-1:-1;651:538:1;;-1:-1:-1;;;;;651:538:1:i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;602:43;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;602:43:1;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;602:43:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;602:43:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;602:43:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;602:43:1;;-1:-1:-1;602:43:1;;-1:-1:-1;;;;;602:43:1:i;651:538::-;707:16;724:14;739:17;757:19;777;797:13;811:16;828:13;842:8;851:9;861:7;869:13;883:15;910:16;;:::i;:::-;929:13;943:3;929:18;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;176:10;;164:23;;-1:-1;;139:12;;;;98:2;89:12;;;;114;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;929:18:1;;;;;;;;;;;;;;;;;;;;;910:37;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;964:6;:18;;;983:6;:16;;;1000:6;:19;;;1020:6;:21;;;1042:6;:21;;;1064:6;:15;;;1080:6;:18;;;1099:6;:15;;;1115:6;:10;;;1126:6;:11;;;1138:6;:9;;;1148:6;:15;;;1164:6;:17;;;957:225;;;;;;;;;;;;;;;;;;;;;;;;;;;651:538;;;;;;;;;;;;;;;:::o;602:43::-;22:14:-1;;169:4;143:32;;;;;198:20;;602:43:1;224:31:-1;;156:18;;;283;;;;273:49;328:32;;602:43:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;602:43:1;;;;;-1:-1:-1;;;602:43:1;;;;;-1:-1:-1;;;602:43:1;;;;;:::o;25:1166::-;;;;;;;;;-1:-1:-1;25:1166:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\n\ncontract HouseFur {\n\n    //房東提供的東東houseFurniture\n  struct hF{\n    // （是否有）熱水器\n    bool waterHeater;\n    // 瓦斯\n    bool gasNutual;\n    // 冰箱\n    bool refrigerator;\n    // 冷氣\n    bool airConditioner;\n    // 洗衣機\n    bool washingMachine;\n    // 網路\n    bool internet;\n    // 桌椅\n    bool chairnTable;\n    // 衣櫃\n    bool wardrobe;\n    // 床具\n    bool bed;\n    // 沙發\n    bool sofa;\n    // 電視\n    bool tv;\n    // 第四台\n    bool theForth;\n\n    // 壞掉是否需要自行負擔維修\n    bool selfFixing;\n  }\n\n  mapping(string =>  hF) public renthFMessage;\n    function sethFMessage(string memory hId) public returns(bool waterHeater,bool gasNutual,bool refrigerator,bool airConditioner,bool washingMachine,bool internet,bool chairnTable,bool wardrobe,bool bed,bool sofa,bool tv,bool theForth,bool selfFixing) {\n        hF memory hFData = renthFMessage[hId];\n        return(hFData.waterHeater,hFData.gasNutual,hFData.refrigerator,hFData.airConditioner,hFData.washingMachine,hFData.internet,hFData.chairnTable,hFData.wardrobe,hFData.bed,hFData.sofa,hFData.tv,hFData.theForth,hFData.selfFixing);\n    }\n}",
+  "sourcePath": "/Users/chenchisheng/Desktop/dapp_houseshop/contracts/HouseFur.sol",
+  "ast": {
+    "absolutePath": "/Users/chenchisheng/Desktop/dapp_houseshop/contracts/HouseFur.sol",
+    "exportedSymbols": {
+      "HouseFur": [
+        183
+      ]
+    },
+    "id": 184,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 85,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 183,
+        "linearizedBaseContracts": [
+          183
+        ],
+        "name": "HouseFur",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "HouseFur.hF",
+            "id": 112,
+            "members": [
+              {
+                "constant": false,
+                "id": 87,
+                "name": "waterHeater",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "137:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 86,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "137:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 89,
+                "name": "gasNutual",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "173:14:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 88,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "173:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 91,
+                "name": "refrigerator",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "207:17:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 90,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "207:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 93,
+                "name": "airConditioner",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "244:19:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 92,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "244:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 95,
+                "name": "washingMachine",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "286:19:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 94,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "286:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 97,
+                "name": "internet",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "325:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 96,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "325:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 99,
+                "name": "chairnTable",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "358:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 98,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "358:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 101,
+                "name": "wardrobe",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "394:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 100,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "394:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 103,
+                "name": "bed",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "427:8:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 102,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "427:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 105,
+                "name": "sofa",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "455:9:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 104,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "455:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 107,
+                "name": "tv",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "484:7:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 106,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "484:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 109,
+                "name": "theForth",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "514:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 108,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "514:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 111,
+                "name": "selfFixing",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "578:15:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 110,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "578:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "hF",
+            "nodeType": "StructDefinition",
+            "scope": 183,
+            "src": "90:508:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 116,
+            "name": "renthFMessage",
+            "nodeType": "VariableDeclaration",
+            "scope": 183,
+            "src": "602:43:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_hF_$112_storage_$",
+              "typeString": "mapping(string => struct HouseFur.hF)"
+            },
+            "typeName": {
+              "id": 115,
+              "keyType": {
+                "id": 113,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "610:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "602:22:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_hF_$112_storage_$",
+                "typeString": "mapping(string => struct HouseFur.hF)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 114,
+                "name": "hF",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 112,
+                "src": "621:2:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_hF_$112_storage_ptr",
+                  "typeString": "struct HouseFur.hF"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 181,
+              "nodeType": "Block",
+              "src": "900:289:1",
+              "statements": [
+                {
+                  "assignments": [
+                    148
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 148,
+                      "name": "hFData",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 181,
+                      "src": "910:16:1",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                        "typeString": "struct HouseFur.hF"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 147,
+                        "name": "hF",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 112,
+                        "src": "910:2:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_hF_$112_storage_ptr",
+                          "typeString": "struct HouseFur.hF"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 152,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 149,
+                      "name": "renthFMessage",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 116,
+                      "src": "929:13:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_hF_$112_storage_$",
+                        "typeString": "mapping(string memory => struct HouseFur.hF storage ref)"
+                      }
+                    },
+                    "id": 151,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 150,
+                      "name": "hId",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 118,
+                      "src": "943:3:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "929:18:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_hF_$112_storage",
+                      "typeString": "struct HouseFur.hF storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "910:37:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 153,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "964:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 154,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "waterHeater",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 87,
+                        "src": "964:18:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 155,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "983:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 156,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "gasNutual",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 89,
+                        "src": "983:16:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 157,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1000:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 158,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "refrigerator",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 91,
+                        "src": "1000:19:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 159,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1020:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 160,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "airConditioner",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 93,
+                        "src": "1020:21:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 161,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1042:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 162,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "washingMachine",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 95,
+                        "src": "1042:21:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 163,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1064:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 164,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "internet",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 97,
+                        "src": "1064:15:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 165,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1080:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 166,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "chairnTable",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 99,
+                        "src": "1080:18:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 167,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1099:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 168,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "wardrobe",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 101,
+                        "src": "1099:15:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 169,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1115:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 170,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "bed",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 103,
+                        "src": "1115:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 171,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1126:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 172,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sofa",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 105,
+                        "src": "1126:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 173,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1138:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 174,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "tv",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 107,
+                        "src": "1138:9:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 175,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1148:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 176,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "theForth",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 109,
+                        "src": "1148:15:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 177,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1164:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 178,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "selfFixing",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 111,
+                        "src": "1164:17:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "id": 179,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "963:219:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$",
+                      "typeString": "tuple(bool,bool,bool,bool,bool,bool,bool,bool,bool,bool,bool,bool,bool)"
+                    }
+                  },
+                  "functionReturnParameters": 146,
+                  "id": 180,
+                  "nodeType": "Return",
+                  "src": "957:225:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 182,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sethFMessage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 119,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 118,
+                  "name": "hId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "673:17:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 117,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "673:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "672:19:1"
+            },
+            "returnParameters": {
+              "id": 146,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 121,
+                  "name": "waterHeater",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "707:16:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 120,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "707:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 123,
+                  "name": "gasNutual",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "724:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 122,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "724:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 125,
+                  "name": "refrigerator",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "739:17:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 124,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "739:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 127,
+                  "name": "airConditioner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "757:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 126,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "757:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 129,
+                  "name": "washingMachine",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "777:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 128,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "777:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 131,
+                  "name": "internet",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "797:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 130,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "797:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 133,
+                  "name": "chairnTable",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "811:16:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 132,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "811:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 135,
+                  "name": "wardrobe",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "828:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 134,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "828:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 137,
+                  "name": "bed",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "842:8:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 136,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "842:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 139,
+                  "name": "sofa",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "851:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 138,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "851:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 141,
+                  "name": "tv",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "861:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 140,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "861:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 143,
+                  "name": "theForth",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "869:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 142,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "869:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 145,
+                  "name": "selfFixing",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "883:15:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 144,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "883:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "706:193:1"
+            },
+            "scope": 183,
+            "src": "651:538:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 184,
+        "src": "25:1166:1"
+      }
+    ],
+    "src": "0:1191:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/chenchisheng/Desktop/dapp_houseshop/contracts/HouseFur.sol",
+    "exportedSymbols": {
+      "HouseFur": [
+        183
+      ]
+    },
+    "id": 184,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 85,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 183,
+        "linearizedBaseContracts": [
+          183
+        ],
+        "name": "HouseFur",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "HouseFur.hF",
+            "id": 112,
+            "members": [
+              {
+                "constant": false,
+                "id": 87,
+                "name": "waterHeater",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "137:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 86,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "137:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 89,
+                "name": "gasNutual",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "173:14:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 88,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "173:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 91,
+                "name": "refrigerator",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "207:17:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 90,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "207:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 93,
+                "name": "airConditioner",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "244:19:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 92,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "244:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 95,
+                "name": "washingMachine",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "286:19:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 94,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "286:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 97,
+                "name": "internet",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "325:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 96,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "325:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 99,
+                "name": "chairnTable",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "358:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 98,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "358:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 101,
+                "name": "wardrobe",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "394:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 100,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "394:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 103,
+                "name": "bed",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "427:8:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 102,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "427:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 105,
+                "name": "sofa",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "455:9:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 104,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "455:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 107,
+                "name": "tv",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "484:7:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 106,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "484:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 109,
+                "name": "theForth",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "514:13:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 108,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "514:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 111,
+                "name": "selfFixing",
+                "nodeType": "VariableDeclaration",
+                "scope": 112,
+                "src": "578:15:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 110,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "578:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "hF",
+            "nodeType": "StructDefinition",
+            "scope": 183,
+            "src": "90:508:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 116,
+            "name": "renthFMessage",
+            "nodeType": "VariableDeclaration",
+            "scope": 183,
+            "src": "602:43:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_hF_$112_storage_$",
+              "typeString": "mapping(string => struct HouseFur.hF)"
+            },
+            "typeName": {
+              "id": 115,
+              "keyType": {
+                "id": 113,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "610:6:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "602:22:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_hF_$112_storage_$",
+                "typeString": "mapping(string => struct HouseFur.hF)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 114,
+                "name": "hF",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 112,
+                "src": "621:2:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_hF_$112_storage_ptr",
+                  "typeString": "struct HouseFur.hF"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 181,
+              "nodeType": "Block",
+              "src": "900:289:1",
+              "statements": [
+                {
+                  "assignments": [
+                    148
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 148,
+                      "name": "hFData",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 181,
+                      "src": "910:16:1",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                        "typeString": "struct HouseFur.hF"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 147,
+                        "name": "hF",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 112,
+                        "src": "910:2:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_hF_$112_storage_ptr",
+                          "typeString": "struct HouseFur.hF"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 152,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 149,
+                      "name": "renthFMessage",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 116,
+                      "src": "929:13:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_string_memory_$_t_struct$_hF_$112_storage_$",
+                        "typeString": "mapping(string memory => struct HouseFur.hF storage ref)"
+                      }
+                    },
+                    "id": 151,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 150,
+                      "name": "hId",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 118,
+                      "src": "943:3:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "929:18:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_hF_$112_storage",
+                      "typeString": "struct HouseFur.hF storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "910:37:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 153,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "964:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 154,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "waterHeater",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 87,
+                        "src": "964:18:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 155,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "983:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 156,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "gasNutual",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 89,
+                        "src": "983:16:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 157,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1000:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 158,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "refrigerator",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 91,
+                        "src": "1000:19:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 159,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1020:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 160,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "airConditioner",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 93,
+                        "src": "1020:21:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 161,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1042:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 162,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "washingMachine",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 95,
+                        "src": "1042:21:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 163,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1064:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 164,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "internet",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 97,
+                        "src": "1064:15:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 165,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1080:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 166,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "chairnTable",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 99,
+                        "src": "1080:18:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 167,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1099:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 168,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "wardrobe",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 101,
+                        "src": "1099:15:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 169,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1115:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 170,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "bed",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 103,
+                        "src": "1115:10:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 171,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1126:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 172,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sofa",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 105,
+                        "src": "1126:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 173,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1138:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 174,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "tv",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 107,
+                        "src": "1138:9:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 175,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1148:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 176,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "theForth",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 109,
+                        "src": "1148:15:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "id": 177,
+                          "name": "hFData",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 148,
+                          "src": "1164:6:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_hF_$112_memory_ptr",
+                            "typeString": "struct HouseFur.hF memory"
+                          }
+                        },
+                        "id": 178,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "selfFixing",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 111,
+                        "src": "1164:17:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "id": 179,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "963:219:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$_t_bool_$",
+                      "typeString": "tuple(bool,bool,bool,bool,bool,bool,bool,bool,bool,bool,bool,bool,bool)"
+                    }
+                  },
+                  "functionReturnParameters": 146,
+                  "id": 180,
+                  "nodeType": "Return",
+                  "src": "957:225:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 182,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sethFMessage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 119,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 118,
+                  "name": "hId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "673:17:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 117,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "673:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "672:19:1"
+            },
+            "returnParameters": {
+              "id": 146,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 121,
+                  "name": "waterHeater",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "707:16:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 120,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "707:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 123,
+                  "name": "gasNutual",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "724:14:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 122,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "724:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 125,
+                  "name": "refrigerator",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "739:17:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 124,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "739:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 127,
+                  "name": "airConditioner",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "757:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 126,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "757:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 129,
+                  "name": "washingMachine",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "777:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 128,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "777:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 131,
+                  "name": "internet",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "797:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 130,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "797:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 133,
+                  "name": "chairnTable",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "811:16:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 132,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "811:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 135,
+                  "name": "wardrobe",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "828:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 134,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "828:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 137,
+                  "name": "bed",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "842:8:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 136,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "842:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 139,
+                  "name": "sofa",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "851:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 138,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "851:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 141,
+                  "name": "tv",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "861:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 140,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "861:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 143,
+                  "name": "theForth",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "869:13:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 142,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "869:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 145,
+                  "name": "selfFixing",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 182,
+                  "src": "883:15:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 144,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "883:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "706:193:1"
+            },
+            "scope": 183,
+            "src": "651:538:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 184,
+        "src": "25:1166:1"
+      }
+    ],
+    "src": "0:1191:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {
+    "1561426420810": {
+      "events": {},
+      "links": {},
+      "address": "0x583F0953550B56498C883F6736c3eFD5240922D0",
+      "transactionHash": "0xb4dbc2ca1328cd63e2f5046c6f0437076003f58950b758f60c35b5397b80d5d4"
+    },
+    "1561435662896": {
+      "events": {},
+      "links": {},
+      "address": "0x2630e1A59a4c533934C0b66f3b5Eb7B86d876685",
+      "transactionHash": "0x304749401459106f10f524f8618365f10a0a3933dd739a2a7340cf605b8498e6"
+    },
+    "1561645787898": {
+      "events": {},
+      "links": {},
+      "address": "0xb4E7eFe3436160Ad72De4eF01989ed279db269Ce",
+      "transactionHash": "0xea520f43a659b8a620c5a94c78e672c350ece9b5afbbccf0dcfbbcd7c79d9302"
+    },
+    "1562382288454": {
+      "events": {},
+      "links": {},
+      "address": "0xA216f3d12340941A3865f8f31864a4e90AedE2f1",
+      "transactionHash": "0x5c0a981b298ab89a40c837906468ffa155ad54dd6b4fb1af369f215df735b412"
+    }
+  },
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-06T03:15:56.172Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
